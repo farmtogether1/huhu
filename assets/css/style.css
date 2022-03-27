@@ -7229,6 +7229,7 @@ body, html {
   .section-qa .actions {
     margin-top: 3rem; }
   .section-qa .box-list-qa {
+    transform: translateX(50%)!important;
     width: 430px;
     margin-left: 4rem; }
   .section-qa .qa-item {
@@ -7378,7 +7379,9 @@ body, html {
   .hero-banner .hero-text {
     top: 150px;
     max-width: 530px;
-    width: 100%; } }
+    width: 100%; } 
+    .section-qa .box-list-qa {
+      transform: translateX(0%)!important;}  } 
 
 @media (max-width: 991px) {
   .list-benefits .icon img {
@@ -7426,7 +7429,10 @@ body, html {
   .roadmap .web {
     display: none; }
   .roadmap .mobile {
-    display: block; } }
+    display: block; } 
+    .section-qa .box-list-qa {
+      transform: translateX(0%)!important;}  
+  }
 
 @media (max-width: 768px) {
   .section-qa .container {
@@ -7448,7 +7454,9 @@ body, html {
     .hero-banner .hero-code .form-control {
       text-align: center; }
   .hero-banner .hero-title {
-    font-size: 32px; } }
+    font-size: 32px; } 
+    .section-qa .box-list-qa {
+      transform: translateX(0%)!important;}}
 
 @media (max-width: 480px) {
   .list-benefits .item {
@@ -7457,7 +7465,10 @@ body, html {
     width: 100%;
     margin-left: 0px; }
   .hero-banner .actions .btn {
-    width: 100%; } }
+    width: 100%; } 
+    .section-qa .box-list-qa {
+      transform: translateX(0%)!important;}}
+
 
 .flip-clock-wrapper {
   margin: 0px;

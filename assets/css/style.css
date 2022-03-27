@@ -6964,7 +6964,9 @@ body, html {
   display: none; }
   .overlay-common.show {
     display: block; }
-
+.centerapp {
+  text-align: center;
+}
 .btn-main {
   font-size: 1rem;
   font-weight: 600;
@@ -7254,7 +7256,8 @@ body, html {
     .section-qa .qa-item .top {
       display: flex; }
       .section-qa .qa-item .top .title {
-        flex: 1; }
+        flex: 1; 
+      }
     .section-qa .qa-item .arrow {
       display: block;
       width: 30px;
@@ -7269,7 +7272,7 @@ body, html {
       min-width: 0px;
       padding-top: 0.5rem; }
     .section-qa .qa-item .title {
-      font-size: 1.2rem; }
+      font-size: 1.5rem;font-weight: 600; }
     .section-qa .qa-item .desc {
       font-size: 14px;
       visibility: hidden;

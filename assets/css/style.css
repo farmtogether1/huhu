@@ -7031,7 +7031,7 @@ body, html {
     align-items: center;
     justify-content: space-between; }
   .header .menus-box {
-    flex: 1;
+    /* flex: 1; */
     text-align: right;
     display: flex;
     justify-content: space-between; }
@@ -7137,7 +7137,7 @@ body, html {
   padding-bottom: 6rem; }
   .section-benefits .container {
     position: relative; }
-    .section-benefits .container:after {
+    /* .section-benefits .container:after {
       content: "";
       width: 200px;
       height: 270px;
@@ -7146,14 +7146,28 @@ body, html {
       left: 0px;
       background-image: url(../images/rocket.png);
       background-size: contain;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat; } */
   .section-benefits .actions {
     margin-top: 4rem; }
   .section-benefits.-how .section-title {
     margin-top: -4rem; }
   .section-benefits.-how .container:after {
     display: none; }
-
+  .percent-roi{
+    font-size: 40px!important;
+    color: yellow;
+  }
+  .btn-buynode{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+  }
+  .btn-buynode:hover{
+    background-color: yellow;
+  }
+  .permonth{
+    margin-bottom: 10px;
+  }
 .list-benefits {
   display: flex;
   flex-wrap: wrap;
@@ -7173,7 +7187,25 @@ body, html {
   .list-benefits .money {
     font-size: 0.9rem;
     font-weight: 500; }
-
+  .list-benefits .item.angel-item{
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  .darkangel-item{
+    border: 2px solid #EC6441;
+    border-radius: 10px;
+  }
+  .archangel-item{
+    border: 2px solid #52d1c5;
+    border-radius: 10px;
+  }
+  .nemesis-item{
+    border: 2px solid #cead00;
+    border-radius: 10px;
+  }
+  .item-hover:hover{
+    transform: scale(1.1);
+  }
 .roadmap img {
   width: 100%; }
 

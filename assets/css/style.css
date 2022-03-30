@@ -6942,8 +6942,11 @@ body, html {
   font-family: 'Mali', Arial;
   font-size: 1rem;
   overflow: auto;
-  background-color: #280E52;
-  background: linear-gradient(to top, #280E52, #290f53);
+  /* background-color: #280E52; */
+  background-image: url("../images/Background.png");
+  background-size: cover;
+  object-fit: cover;
+  /* background: linear-gradient(to top, #280E52, #290f53); */
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -7203,8 +7206,8 @@ border-radius: 20px;}
     .list-benefits .icon img {
       height: 150px; }
   .list-benefits .title {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 800;
     margin-bottom: 0.5rem; }
   .list-benefits .money {
     font-size: 0.9rem;
@@ -7227,7 +7230,10 @@ border-radius: 20px;}
   }
 
 .roadmap img {
-  width: 100%; }
+  width: 50%; 
+margin-left: auto;
+margin-right: auto;
+display: block;}
 
 .roadmap .mobile {
   display: none; }
@@ -7251,7 +7257,7 @@ border-radius: 20px;}
   .section-qa .box-list-qa {
     transform: translateX(50%)!important;
     width: 430px;
-    margin-left: 4rem; }
+    margin-left: 10rem; }
   .section-qa .qa-item {
     background: #fff;
     border-radius: 16px;
@@ -7313,10 +7319,10 @@ border-radius: 20px;}
 .footer {
   position: relative;
   padding: 3rem 0px;
-  background-color: #050933;
+  /* background-color: #050933; */
   padding-top: 4rem;
   text-align: center; }
-  .footer:before {
+  /* .footer:before {
     content: "";
     background-image: url(../images/footer/bg.jpg);
     position: absolute;
@@ -7326,7 +7332,7 @@ border-radius: 20px;}
     left: 0px;
     right: 0px;
     bottom: 0px;
-    z-index: 2; }
+    z-index: 2; } */
   .footer .container {
     position: relative;
     z-index: 2; }
@@ -7393,7 +7399,9 @@ border-radius: 20px;}
     margin: 10px; }
   .list-partners img {
     height: 36px; }
-
+.paddingtop{
+  padding-top: 1000px;
+}
 @media (max-width: 1200px) {
   html {
     font-size: 16px; }
@@ -7402,9 +7410,17 @@ border-radius: 20px;}
     max-width: 530px;
     width: 100%; } 
     .section-qa .box-list-qa {
-      transform: translateX(0%)!important;}  } 
+      transform: translateX(0%)!important;} 
+      .paddingtop{
+        padding-top: 0;
+      }
+    } 
+
 
 @media (max-width: 991px) {
+  .paddingtop{
+    padding-top: 0;
+  }
   .list-benefits .icon img {
     height: 100px; }
   .section-benefits .container:after {
@@ -7456,6 +7472,9 @@ border-radius: 20px;}
   }
 
 @media (max-width: 768px) {
+  .paddingtop{
+    padding-top: 0;
+  }
   .section-qa .container {
     display: block; }
   .section-qa .box-list-qa {
@@ -7480,6 +7499,9 @@ border-radius: 20px;}
       transform: translateX(0%)!important;}}
 
 @media (max-width: 480px) {
+  .paddingtop{
+    padding-top: 0;
+  }
   .list-benefits .item {
     min-width: 0px; }
   .hero-banner .hero-code .btn {

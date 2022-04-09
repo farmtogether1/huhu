@@ -7084,7 +7084,7 @@ border-radius: 20px;}
 
 .hero-banner .hero-title {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #fff;
   margin-bottom: 2rem;
   display: block;
@@ -7118,7 +7118,7 @@ border-radius: 20px;}
   flex-wrap: wrap;
   justify-content: space-between; }
   .hero-banner .actions .btn {
-    font-size: 1.2rem; 
+    font-size: 1.4rem; 
   border-radius: 20px;}
   .hero-banner .actions .presale {
     font-size: 1.5rem;
